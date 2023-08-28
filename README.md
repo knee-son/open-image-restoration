@@ -164,8 +164,8 @@ A blog post (in french) presents an overview on the subject [here](https://titsi
 
 This research was conducted at CETIC, as part of the FEDER Digistorm project, co-financed by the European Union and the Wallonia Region.
 
-<a href="https://www.cetic.be"><img src="https://www.cetic.be/IMG/siteon0.png?1570113941" style="width:200px;"></a>
-<a href="https://www.cetic.be"><img src="https://www.enmieux.be/themes/enmieux/img/logo-feder-fse.png" style="width:200px;"></a>
+<a href="https://www.cetic.be"><img src="https://www.cetic.be/IMG/siteon0.png?1570113941" style="height:100px;"></a>
+<a href="https://www.enmieux.be"><img src="https://www.enmieux.be/themes/enmieux/img/logo-feder-fse.png" style="height:100px;"></a>
 ---
 
 <sup>1</sup>: In my research of IR algorithms, I subjectively considered Matlab and Caffe as painfull dependencies. Matlab is simply not free (and simpy not usable in Google colab), and Caffe hard to install, especially in Google Colab. Both of these issues make the algorithms hard to share to the community.
