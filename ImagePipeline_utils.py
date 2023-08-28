@@ -331,7 +331,7 @@ def reset_gpu(device = 0):
 import os, time, datetime
 #import PIL.Image as Image
 import numpy as np
-from skimage.measure import compare_psnr, compare_ssim
+from skimage.metrics import peak_signal_noise_ratio, structural_similarity
 from skimage.io import imread, imsave
 
 def to_tensor(img):
