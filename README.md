@@ -1,8 +1,9 @@
 # Open-Image-Restoration Toolkit
 ## A selection of State-ot-the-art, Open-source, Usable, and Pythonic techniques for Image Restoration
 
+[![Colab for images](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/knee-son/open-image-restoration/blob/master/Colab_Notebooks/Demo_Image_Restoration.ipynb)
+
 <p align="center">
-    [![Colab for images](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/knee-son/open-image-restoration/blob/master/Colab_Notebooks/Demo_Image_Restoration.ipynb)
 <img src="https://raw.githubusercontent.com/titsitits/open-image-restoration/master/Anne-Franck.png" width="800" />
 </p>
 
