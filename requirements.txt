@@ -1,11 +1,9 @@
 # The dependencies below are needed for colorization algorithm (DeOldify)
-fastai
+fastai==1.0.61
 tensorboardX==1.6
 ffmpeg
 ffmpeg-python==0.1.17
 youtube-dl>=2019.4.17
-jupyterlab>=3.0.0
-jupyter-client>=5.3.4,<8
 pyzmq>=17,<25
 opencv-python>=3.3.0.10
 pillow
