@@ -2,12 +2,9 @@
 ## A selection of State-ot-the-art, Open-source, Usable, and Pythonic techniques for Image Restoration
 
 <p align="center">
+    [![Colab for images](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/knee-son/open-image-restoration/blob/master/Colab_Notebooks/Demo_Image_Restoration.ipynb)
 <img src="https://raw.githubusercontent.com/titsitits/open-image-restoration/master/Anne-Franck.png" width="800" />
 </p>
-
-<!--p align="center">
-<img style="height: 100%; width: 100%; object-fit: contain" src="https://github.com/titsitits/open-image-restoration/blob/master/Anne-Franck.png" />
-</p-->
 
 ## Description
 This project gathers together and packages various image restoration techniques that follow various criteria:
@@ -15,9 +12,6 @@ This project gathers together and packages various image restoration techniques 
 * Open source (the selected implementations are under MIT or Apache licenses)
 * Usable (a pretrained model is available, and the code does not need painfull<sup>1</sup> dependencies)
 * Python implementation (easier to use together, to share, and especially to use in Google Colab).
-
-## Demo
-The project is a work in progress. However, it is already functional and **can be tested on your own images** through this **[demo in Google Colab](https://colab.research.google.com/github/titsitits/open-image-restoration/blob/master/Colab_Notebooks/Demo_Image_Restoration.ipynb)**.
 
 ## Technical details
 The algorithms currently included in the packages are directly replicated or slightly adapted from external github repositories (see below). These methods were selected based on the above criteria, and after a comparison with other methods (comparison colab notebooks are coming soon). 
@@ -170,7 +164,7 @@ A blog post (in french) presents an overview on the subject [here](https://titsi
 This research was conducted at CETIC, as part of the FEDER Digistorm project, co-financed by the European Union and the Wallonia Region.
 
 <a href="https://www.cetic.be"><img src="https://www.cetic.be/IMG/siteon0.png?1570113941" style="width:200px;"></a>
-<a href="https://www.cetic.be"><img src="https://www.enmieux.be/sites/all/themes/enmieux_theme/img/logo-feder-fse.png" style="width:200px;"></a>
+<a href="https://www.cetic.be"><img src="https://www.enmieux.be/themes/enmieux/img/logo-feder-fse.png" style="width:200px;"></a>
 ---
 
 <sup>1</sup>: In my research of IR algorithms, I subjectively considered Matlab and Caffe as painfull dependencies. Matlab is simply not free (and simpy not usable in Google colab), and Caffe hard to install, especially in Google Colab. Both of these issues make the algorithms hard to share to the community.
