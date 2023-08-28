@@ -1,5 +1,5 @@
 #The dependencies below are needed for colorization algorithm (DeOlfidy)
-fastai==1.0.51
+fastai
 tensorboardX==1.6
 ffmpeg
 ffmpeg-python==0.1.17
