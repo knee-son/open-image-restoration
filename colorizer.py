@@ -113,7 +113,7 @@ if __name__ == '__main__':
 
 	if not path.isfile(model_path):
 		print("Model mising. Let's download it...")
-		command = "wget wget https://www.dropbox.com/s/zkehq1uwahhbc2o/ColorizeArtistic_gen.pth?dl=0 -O " + model_path
+		command = "wget https://huggingface.co/spaces/aryadytm/photo-colorization/resolve/main/models/ColorizeArtistic_gen.pth -O " + model_path
 		sub = subprocess.call(command, shell=True)
 
 	if not path.exists('./fasterai'):
